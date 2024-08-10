@@ -1,0 +1,84 @@
+body {
+    background-image: url('weather.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#weather-container {
+    background: rgba(255, 255, 255, 0.7);
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+input {
+    width: calc(100% - 16px);
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+button {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background: #45a049;
+}
+
+#weather-output {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#weather-icon {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+}
+
+#weather-details {
+    text-align: left;
+}
+
+#temp-div p {
+    font-size: 3em;
+    margin: 0;
+    color: #333;
+}
+
+#weather-info p {
+    font-size: 1.2em;
+    margin: 5px 0;
+    color: #555;
+}
